@@ -1,0 +1,30 @@
+{
+  "name": "nextalso",
+  "version": "0.1.1",
+  "description": "Yet another flow control library",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha -R spec --ui bdd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:TheEwok/nextalso.git"
+  },
+  "keywords": [
+    "async",
+    "flow",
+    "control"
+  ],
+  "author": "Baz O'Mahony <the.ewok@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheEwok/nextalso/issues"
+  },
+  "homepage": "https://github.com/TheEwok/nextalso",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1",
+    "sinon": "^1.12.2",
+    "sinon-chai": "^2.6.0"
+  }
+}
