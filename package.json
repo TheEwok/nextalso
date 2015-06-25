@@ -4,7 +4,8 @@
   "description": "Yet another flow control library",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha -R spec --ui bdd"
+    "test": "mocha -R spec --ui bdd",
+	"test_debug": "mocha --debug-brk -R spec --ui bdd"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,9 @@
     "mocha": "^2.0.1",
     "sinon": "^1.12.2",
     "sinon-chai": "^2.6.0"
+  },
+  "dependencies": {
+    "bunyan": "^1.2.3",
+    "debug": "^2.1.1"
   }
 }
